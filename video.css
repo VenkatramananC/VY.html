@@ -1,0 +1,84 @@
+
+.one {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.img2 {
+    width: 100%;
+    border-radius: 20px;
+
+}
+.gridall {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr ;
+   column-gap: 20px;
+   row-gap: 15px;
+}
+@media (max-width : 750px) {
+    .gridall{
+           grid-template-columns: 1fr 1fr;
+    }
+}
+@media (min-width : 751px) and (max-width:999){
+    .gridall{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+@media (min-width : 1000px){
+    .gridall{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+.sidebar{
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    top: 80px;
+    width: 90px;
+    background-color: white;
+    font-size: 11PX;
+}
+.side-bar{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 90px;
+    cursor: pointer;
+}
+.side-bar:hover{
+    background-color: rgb(228, 222, 222);
+}
+.side-bar img{
+height: 30px;
+padding-bottom: 10px;
+}
+
+.time1{
+  padding: 2px;
+  background-color: black;
+  color: white;
+  position: absolute;
+  width: 40px;
+  bottom: 10px;
+  right: 15px;
+  border-radius: 5px;
+}
+
+.createt{
+    border-radius: 10px;
+    height:40px;
+    width: 100px;
+    background-color: rgb(245, 238, 238);
+    border-color: rgb(218, 214, 214);
+    border-style: none;
+    cursor: pointer;
+}
+.main-pic1{
+    position: relative;
+}
+.main-pic2{
+    position: relative;
+}
