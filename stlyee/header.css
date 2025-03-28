@@ -1,0 +1,151 @@
+body{
+    background-color: rgb(246, 244, 244);
+    padding-top: 80px;
+    padding-left: 90px;
+}
+.leftside{
+    padding-left: 15px;
+    display: flex;
+    align-items: center;
+}
+.middle{
+  display: flex;
+  align-items: center;
+  margin-left: 150px;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 1000px;
+
+}
+.searchbar{
+    padding-left:  8px;
+    height: 36px;
+    flex: 1;
+    font-size: 15px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(169, 167, 167);
+    box-shadow: inset 1px 2px 2px rgba(0,0,0,0.15);
+    
+}
+.searchbar::placeholder{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+}
+.rightside{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+    flex: 1;
+    padding-left: 50px;
+    padding-right: 20px;
+    min-width: 225px;
+    align-items: center;
+    margin-left: 200px;
+    
+}
+.email{
+    border-radius: 20px;
+    height:40px;
+    cursor: pointer;
+}
+.header{
+    position:fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    height: 80px;
+    display: flex;
+    margin: 0px;
+    background-color: white;
+    z-index: 1;
+}
+.logo1{
+    display: flex;
+    height: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.logoy{
+    display: flex;
+    height: 60px;
+}
+.serchbutt{
+    position: relative;
+    width: 60px;
+    height: 40px;
+    background-color:rgb(245, 238, 238);
+    border-style: solid;
+    border-color: rgb(223, 218, 218); 
+    box-shadow: inset 1px 2px 2px rgba(0,0,0,0.15);
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+.searchl{
+    margin-top: 5px;
+    height: 20px;
+}
+.beellbutt{
+    position: relative;
+    height: 40px;
+    background-color: rgb(245, 238, 238);
+    border-radius: 50px;
+    border: none;
+    margin-left: 15px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+.bell{
+    margin-top: 5px;
+    height: 28px;
+   
+}
+.dotti{
+    height: 30px;
+}
+.viodpng{
+    height: 30px;
+}
+.noti{
+    height: 30px;
+    width: 30px;
+    border-style: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.Searchhover, .voices, .notification,.profile
+{
+    background-color: rgb(95, 94, 94);
+    color:white ;
+    position: absolute;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    font-size: 12px;
+    border-radius: 5px;
+    bottom: -28px;
+    opacity: 0;
+    pointer-events: none;
+    transition : opacity 0.25s;
+    white-space: nowrap;
+}
+.serchbutt:hover .Searchhover,
+.beellbutt:hover .voices, 
+.buttnoti:hover .notification,
+.mails:hover .profile{
+    display: flex;
+    justify-content: center;
+    opacity: 1;
+}
+.buttnoti, .mails{
+    position: relative;
+}
+.side-logo{
+    width: 40px;
+}

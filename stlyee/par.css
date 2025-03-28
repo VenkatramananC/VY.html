@@ -1,0 +1,82 @@
+
+.thum {
+   
+    cursor: pointer;
+    display: flex;
+    width: 30px;
+    border-radius: 20px;
+}
+
+.grid {
+    margin-top: 8px;
+    display: grid;
+    grid-template-columns: 30px 1fr 30px;
+    column-gap: 20px;
+    cursor: pointer;
+} 
+.grid2 {
+    margin-top: 8px;
+    display: grid;
+    grid-template-columns: 30px 1fr 30px;
+    column-gap: 20px;
+    cursor: pointer;
+} 
+.title-one{
+    margin: 0px;
+}
+.tumb2 {
+    cursor: pointer;
+    
+}
+
+.video-title2 {
+
+    margin: 0px;
+}
+.tmb-img {
+    width: 30px;
+   
+    border-radius: 20px;
+}
+.video-title22 {
+
+    margin: 0px;
+}
+.doticon2{
+   display: grid;
+   height: 20px;
+   padding-top: 8px;
+   padding-left: 5px;
+   cursor: pointer;
+}
+.doticon{
+    display: grid;
+    vertical-align: middle;
+ }
+ .downbut{
+    cursor: pointer;
+    display: grid;
+    width: 30px;
+    border-radius: 20px;
+ }
+ .video-tumb1{
+    display: grid;
+ }
+ .hometext{
+    display: flex;
+    height: 40px;
+    align-items: center;
+ }
+ .homepng{
+    display: flex;
+    width: 30px;
+    cursor: pointer;
+    
+ }
+ .shortpng{
+    width: 25px;
+    cursor: pointer;
+ }
+
+
+ 
